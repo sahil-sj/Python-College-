@@ -1,0 +1,1 @@
+print("The no of vowels are : ",c)

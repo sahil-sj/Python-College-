@@ -11,9 +11,11 @@
 #     sum+=i*i
 #     print(f"{i*i} + ",end="")
 # print(f"{n*n} = {sum}")
-for i in range(5,0,-1):
-    for j in range(i,0,-1):
-        print(j,end="")
-    print()
-
-
+# for i in range(5,0,-1):
+#     for j in range(i,0,-1):
+#         print(j,end="")
+#     print()
+tu=(2,4,6)
+t1=(3,7,45,65,34)
+l1={i:j for i in t1 for j in tu}
+print(l1)
